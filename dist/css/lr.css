@@ -1,0 +1,96 @@
+#mmb {
+  border-bottom: 2px solid orange;
+  width: 100%; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.user_login {
+  margin: 30px 0 100px;
+  overflow: hidden; }
+
+.login_left {
+  width: 692px;
+  float: left;
+  border-right: 1px dashed #e7e7e7;
+  padding-bottom: 30px; }
+
+form h3 {
+  padding-left: 88px;
+  font-size: 16px;
+  font-weight: 600; }
+
+form h3 span {
+  font-size: 12px; }
+
+form p {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  margin-left: 86px; }
+
+form .f1 {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #bebebe;
+  width: 215px;
+  padding-left: 5px; }
+
+form p span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #999; }
+
+form p i {
+  width: 84px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: right; }
+
+#chkBox {
+  width: 15px;
+  height: 15px;
+  border: none; }
+
+.fuwu_her {
+  color: #005ea6;
+  text-decoration: underline; }
+
+.login_right {
+  width: 307px;
+  float: left; }
+
+.login_qq {
+  width: 216px;
+  margin: 30px auto; }
+
+.login_qq h2 {
+  font-weight: 500;
+  color: #333; }
+
+.login_qq .f2 {
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 2px;
+  color: #333; }
+
+.login_qq p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666; }
+
+.login_qq p a img {
+  margin-top: 20px; }

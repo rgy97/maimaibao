@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+.top{
+    width:100%;
+    height: 45px;
+    background:url("http://rep3.mmb.cn/wap/icon/ad/1414569876529B.gif") no-repeat center #e7ded8;
+}
+.top .pic{
+    width:1000px;
+    height: 45px;
+    margin: 0 auto;
+}
+.top .pic a{
+    width:1000px;
+    height:45px;
+    display:block;
+}
+#top{
+    width:100%;
+    height: 25px;
+    line-height: 25px;
+    background: #f3f3f3;
+    font-size:12px;
+}
+#top .box{
+    width: 1200px;
+    margin: 0 auto;
+}
+#top .box .left{
+    float: left;
+    color: #aaa;
+}
+#top .box .right{
+    float: right;
+    text-align: left;
+    display:inline-block;
+}
+#top .box .right li{
+    float: left;
+    padding:  0 4px;
+}
+#top .box .right li span{
+    margin-left: 2px;
+}
+#top .box .right  .ph{
+    color: #dd0101;
+    font-weight: bold;
+    font-size: 14px;
+}
+#top .box .right .qq{
+    padding-left: 15px;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/user/qqIcon.png) no-repeat left 3px;
+}
+#top .box .right .ld{
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/bg1.jpg) no-repeat 2px center;
+    padding-left: 14px;
+    position: relative;
+    z-index: 9999999;
+}
+#mmb{
+    width:1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+#mmb .logo{
+    width:268px;
+    margin-top:5px;
+    padding-left: 7px;
+    height:80px;
+    float:left;
+}
+#mmb .logo a{
+    display:block;
+    width: 221px;
+    height: 80px;
+    overflow: hidden;
+    background: url(http://rep3.mmb.cn/wap/icon/ad/1427359231781B.png) no-repeat;
+}
+
+#mmb .bycar{
+    float: right;
+    margin-top: 26px;
+    width: 178px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    border: 1px solid #ccc;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/home/newimg/bg2.jpg) repeat-x;
+    padding: 7px 10px 5px;
+}
+#mmb .bycar .cars{
+    padding-left: 34px;
+    width: 85px;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/c.jpg) no-repeat left center;
+    float: left;
+    position: relative;
+}
+#mmb .bycar .cars em{
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/bg3.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+#mmb .bycar .go_car{
+    width: 55px;
+    height: 20px;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/go.jpg) no-repeat;
+    float: right;
+}
+#footer{
+    width: 1200px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#footer .footer_server1{
+    padding: 12px 0 0 260px;
+    border: 1px solid #f0f0ef;
+    height: 74px;
+}
+#footer .footer_server1 .sev{
+    width: 166px;
+    float: left;
+    margin-right: 76px;
+}
+#footer .footer_server1 .sev .tp{
+    width: 50px;
+    height: 50px;
+    float:left;
+}
+#footer .footer_server1 .sev .tp1{
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/peisong.png) no-repeat;
+
+}
+#footer .footer_server1 .sev .tp2{
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/fukuan.png) no-repeat;
+}
+#footer .footer_server1 .sev .tp3{
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/header/huanxin.png) no-repeat;
+}
+#footer .footer_server1 .sev .artic{
+    float:right;
+    padding-top: 4px;
+}
+#footer .footer_server1 .sev h3{
+    font-size: 14px;
+}
+#footer .footer_server1 .sev h4{
+    font-size: 12px;
+}
+#footer .footer_server2{
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+#footer .footer_server2 ul{
+    float:left;
+    padding-top: 20px;
+    text-align: left;
+}
+#footer .footer_server2 ul li{
+    float:left;
+    padding: 0 50px;
+}
+#footer .footer_server2 ul li h3{
+    font-size: 14px;
+}
+#footer .footer_server2 ul li p{
+    line-height: 26px;
+}
+#footer .footer_server2 ul li p a{
+    color: #666;
+    font-size: 14px;
+}
+.footer_right{
+    float:left;
+}
+.footer_right .mmb_l{
+    width: 126px;
+    text-align: center;
+    float: left;
+    margin-left: 66px;
+    font-size: 14px;
+    
+}
+.footer_right .mmb_l p{
+    line-height: 20px;
+}
+.footer_right .mmb_l p img{
+   margin: 0 auto;
+}
+.footer_right .mmb_l p a{
+    color: #666;
+    text-align: center;
+}
+footer {
+    border-top:1px solid #eee;
+}
+.down{
+    margin: 20px auto 0;
+}
+footer .down_left{
+    margin-right: 60px;
+    float:left;
+    font-size: 14px;
+}
+footer .down_left .pc{
+    margin: 0 40px;
+    float: left;
+    width: 75px;
+    text-align: center;
+
+}
+.pc img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+footer .down_left .pc p{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}
+footer .down_right{
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+footer .down_right p{
+    line-height: 26px;
+}
+footer .down_right p a{
+    color:#0080cc;
+    margin-right: 24px;
+    margin-left: 24px;
+}
