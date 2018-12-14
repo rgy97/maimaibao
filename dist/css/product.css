@@ -232,6 +232,10 @@ header nav .nav1 li a {
   margin: 10px 40px 10px 0;
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4); }
 
+.contais ul li:hover {
+  transform: translate(10px, 10px);
+  box-shadow: 3px 3px 3px #eb6100; }
+
 .contais ul li .txt {
   overflow: hidden;
   text-overflow: ellipsis;
