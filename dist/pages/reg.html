@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/reg.css">
     <link rel="stylesheet" href="../css/lr.css">
+    <script src="../javascripts/register.js"></script>
 </head>
 <body>
         <div class="top">
@@ -24,11 +25,11 @@
                         <span>|</span>
                     </li>
                     <li>
-                        <a href="#">买卖宝账号登录</a>
+                        <a href="./login.html">买卖宝账号登录</a>
                         <span>|</span>
                     </li>
                     <li>
-                        <a href="#">注册</a>
+                        <a href="./reg.html">注册</a>
                         <span>|</span>
                     </li>
                     <li>
@@ -53,7 +54,7 @@
         </div>
         <div id="mmb">
             <div class="logo">
-                <a href="#">
+                <a href="./home.html">
                    
                 </a>
             </div>
@@ -66,23 +67,23 @@
                <h3>注册会员 <span>REGISTRATION</span></h3>
               <p>
                   用户名：<input type="text" class="f1" name="username" id="username" value="">
-               <span>
+               <span class="x">
                    <em></em>
-                   <span>请输入5-14位字母和数字</span>
+                   <span class="user">请输入5-14位字母和数字</span>
                </span>
               </p> 
               <p>
                     密 码：<input type="text" class="f1" name="password" id="password" value="">
                  <span>
                      <em></em>
-                     <span>请输入6-14位字母和数字</span>
+                     <span class="mm">请输入6-14位字母和数字</span>
                  </span>
                 </p> 
             <p>
                      确认密码：<input type="text" class="f1" name="password" id="pwd" value="">
                  <span>
                      <em></em>
-                     <span>请输入6-14位字母和数字</span>
+                     <span class="mm2">请输入6-14位字母和数字</span>
                   </span>
              </p> 
              <p>
@@ -92,7 +93,7 @@
               </p> 
               <p>
                     <i></i>
-                    <input type="submit" class="btn" value="注册">
+                    <input type="submit" id="btn" value="注册">
 
               </p> 
            </form>
@@ -100,7 +101,7 @@
         <div class="login_right">
                 <div class="login_qq">
                     <h2>已经是买卖宝会员？</h2>
-                    <a href="#" class="f2">马上登录 ▶</a>
+                    <a href="../pages/login.html" class="f2">马上登录 ▶</a>
                     <p>使用合作网站账户登录买卖宝:</p>
                     <a href="#">
                         <img width="150px" style="margin-top:20px;" src="http://rep3.mmb.cn/wap/upload/daqphone/images/qqlogin/logo_5.png">
@@ -210,4 +211,5 @@
         </div>
     </footer>
 </body>
+<script src="../javascripts/require.js" data-main="../javascripts/main2.js"></script>
 </html>

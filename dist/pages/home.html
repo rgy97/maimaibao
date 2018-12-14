@@ -23,11 +23,11 @@
                 <span>|</span>
             </li>
             <li>
-                <a href="#">买卖宝账号登录</a>
+                <a href="./login.html">买卖宝账号登录</a>
                 <span>|</span>
             </li>
             <li>
-                <a href="#">注册</a>
+                <a href="./reg.html">注册</a>
                 <span>|</span>
             </li>
             <li>
@@ -63,7 +63,7 @@
         </form>
     </div>
     <div class="bycar">
-        <a href="#" class="cars">购物车(
+        <a href="./buycar.html" class="cars">购物车(
              <span class="car_count">0</span>)
             <em></em>
         </a>
@@ -101,7 +101,7 @@
             </li>
         </ul>
     <div class="left_nav" id="lis">
-        <a href="#" style="display:none;" id="logo2"><img src="http://rep3.mmb.cn/wap/icon/ad/1427359231781B.png" alt=""></a>
+        <a href="#" style="display:none;background: #fff;" id="logo2"><img src="http://rep3.mmb.cn/wap/icon/ad/1427359231781B.png" alt=""></a>
         <h2>
             <a href="#">全部商品分类</a>
         </h2>
@@ -1108,23 +1108,23 @@ function toIndex(event){
 }
     banner_timer = setInterval('$("#right").trigger("click")',3000);
    
-</script>
-<!-- <script>
+
 var h = 168;
- function $(id){
-     return document.getElementById(id);
- }
- window.onscroll = function(){
+ $(window).scroll (function(){
+    //  console.log(111)
      var sTop = document.body.scrollTop || document.documentElement.scrollTop;
+    //  console.log(sTop)
      if( sTop > h ){
-         $("lis").style.position = "fixed";
-         $("lis").style.top = "0";
-         $("logo2").style.display= "block";
+        $("#lis").css({"position":"fixed"});
+         $("#lis").css({"top":"0"});
+        
+
+         $("#logo2").css({"display" :"block"});
      }else{
-         $("lis").style.position = "";
-         $("logo2").style.display= "none";
+        $("#lis").css({"position":""});
+        $("#logo2").css({"display" :"none"});
      }
- }
-</script> -->
+ })
+</script>
  
 </html>

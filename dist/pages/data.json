@@ -1,0 +1,142 @@
+[
+   {
+       "id" : "shop01",
+       "name" : "宏碁（acer）E5-471G-59AL 14英寸超薄本（i5-5200U 4G 1T GeForce 820M 2G独显 Win8.1）珍珠白",
+	   "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/50/287750/v019d10jw022000.jpg",
+       "price" : "4454.0",
+       "span" : "￥"
+   } ,
+   {
+    "id" : "shop02",
+    "name" : "惠普（HP）商务系列 345 G2（J7B79P） 14英寸笔记本（A8-6410M 4G 500G 2G独显 DVD刻录 指纹识别 Win8.1）",
+    "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/63/288263/72e2810jw022000.jpg",
+    "price" : "3189.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop03",
+    "name" : "惠普（HP）商务系列 246 G3 (K1C77PT）14英寸笔记本（i3-4030U 4G 500G 2G独显 蓝牙 Win7）",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/69/288269/96k1z10jw022000.jpg",
+    "price" : "3299.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop04",
+    "name" : "惠普（HP）Notebook 11-f010TU 11.6英寸笔记本 （N2840 2G内存 500G 蓝牙 Win8.1）黑色",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/89/288289/w302810jw022000.jpg",
+    "price" : "2419.0",
+    "span" : "￥"
+   } , 
+   {
+       "id" : "shop01",
+       "name" : "宏碁（acer）E5-471G-59AL 14英寸超薄本（i5-5200U 4G 1T GeForce 820M 2G独显 Win8.1）珍珠白",
+	   "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/50/287750/v019d10jw022000.jpg",
+       "price" : "4454.0",
+       "span" : "￥"
+   } ,
+   {
+    "id" : "shop02",
+    "name" : "惠普（HP）商务系列 345 G2（J7B79P） 14英寸笔记本（A8-6410M 4G 500G 2G独显 DVD刻录 指纹识别 Win8.1）",
+    "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/63/288263/72e2810jw022000.jpg",
+    "price" : "3189.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop03",
+    "name" : "惠普（HP）商务系列 246 G3 (K1C77PT）14英寸笔记本（i3-4030U 4G 500G 2G独显 蓝牙 Win7）",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/69/288269/96k1z10jw022000.jpg",
+    "price" : "3299.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop04",
+    "name" : "惠普（HP）Notebook 11-f010TU 11.6英寸笔记本 （N2840 2G内存 500G 蓝牙 Win8.1）黑色",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/89/288289/w302810jw022000.jpg",
+    "price" : "2419.0",
+    "span" : "￥"
+   },
+ {
+       "id" : "shop01",
+       "name" : "宏碁（acer）E5-471G-59AL 14英寸超薄本（i5-5200U 4G 1T GeForce 820M 2G独显 Win8.1）珍珠白",
+	   "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/50/287750/v019d10jw022000.jpg",
+       "price" : "4454.0",
+       "span" : "￥"
+   } ,
+   {
+    "id" : "shop02",
+    "name" : "惠普（HP）商务系列 345 G2（J7B79P） 14英寸笔记本（A8-6410M 4G 500G 2G独显 DVD刻录 指纹识别 Win8.1）",
+    "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/63/288263/72e2810jw022000.jpg",
+    "price" : "3189.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop03",
+    "name" : "惠普（HP）商务系列 246 G3 (K1C77PT）14英寸笔记本（i3-4030U 4G 500G 2G独显 蓝牙 Win7）",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/69/288269/96k1z10jw022000.jpg",
+    "price" : "3299.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop04",
+    "name" : "惠普（HP）Notebook 11-f010TU 11.6英寸笔记本 （N2840 2G内存 500G 蓝牙 Win8.1）黑色",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/89/288289/w302810jw022000.jpg",
+    "price" : "2419.0",
+    "span" : "￥"
+   } ,
+ {
+       "id" : "shop01",
+       "name" : "宏碁（acer）E5-471G-59AL 14英寸超薄本（i5-5200U 4G 1T GeForce 820M 2G独显 Win8.1）珍珠白",
+	   "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/50/287750/v019d10jw022000.jpg",
+       "price" : "4454.0",
+       "span" : "￥"
+   } ,
+   {
+    "id" : "shop02",
+    "name" : "惠普（HP）商务系列 345 G2（J7B79P） 14英寸笔记本（A8-6410M 4G 500G 2G独显 DVD刻录 指纹识别 Win8.1）",
+    "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/63/288263/72e2810jw022000.jpg",
+    "price" : "3189.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop03",
+    "name" : "惠普（HP）商务系列 246 G3 (K1C77PT）14英寸笔记本（i3-4030U 4G 500G 2G独显 蓝牙 Win7）",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/69/288269/96k1z10jw022000.jpg",
+    "price" : "3299.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop04",
+    "name" : "惠普（HP）Notebook 11-f010TU 11.6英寸笔记本 （N2840 2G内存 500G 蓝牙 Win8.1）黑色",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/89/288289/w302810jw022000.jpg",
+    "price" : "2419.0",
+    "span" : "￥"
+   },
+ {
+       "id" : "shop01",
+       "name" : "宏碁（acer）E5-471G-59AL 14英寸超薄本（i5-5200U 4G 1T GeForce 820M 2G独显 Win8.1）珍珠白",
+	   "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/50/287750/v019d10jw022000.jpg",
+       "price" : "4454.0",
+       "span" : "￥"
+   } ,
+   {
+    "id" : "shop02",
+    "name" : "惠普（HP）商务系列 345 G2（J7B79P） 14英寸笔记本（A8-6410M 4G 500G 2G独显 DVD刻录 指纹识别 Win8.1）",
+    "src" : "http://rep3.mmb.cn/wap/upload/productImage/p3/63/288263/72e2810jw022000.jpg",
+    "price" : "3189.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop03",
+    "name" : "惠普（HP）商务系列 246 G3 (K1C77PT）14英寸笔记本（i3-4030U 4G 500G 2G独显 蓝牙 Win7）",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/69/288269/96k1z10jw022000.jpg",
+    "price" : "3299.0",
+    "span" : "￥"
+   },
+   {
+    "id" : "shop04",
+    "name" : "惠普（HP）Notebook 11-f010TU 11.6英寸笔记本 （N2840 2G内存 500G 蓝牙 Win8.1）黑色",
+    "src" :  "http://rep3.mmb.cn/wap/upload/productImage/p3/89/288289/w302810jw022000.jpg",
+    "price" : "2419.0",
+    "span" : "￥"
+   }  
+]

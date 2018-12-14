@@ -1,0 +1,262 @@
+#mmb .search{
+    float:left;
+    margin-top: 32px;
+}
+#mmb .search .sk{
+    display: block;
+    width:440px;
+    height: 25px;
+    line-height: 25px;
+    border:1px solid #ccc;
+    border-right:none;
+    padding-left: 5px;
+    float:left;
+}
+#mmb .search .sc{
+    display:inline-block;
+    border:none;
+    width:63px;
+    height: 27px;
+    background:orange;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    float: left;
+}
+header{
+    background-color: #eb6100;
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+header nav{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header nav .nav1{
+    width: 990px;
+    margin-left: 210px;
+}
+header nav .nav1 li{
+    float:left;
+}
+header nav .nav1 li a:hover span{
+    border-bottom:2px solid #fff;
+}
+header nav .nav1 li a{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.mmb-list {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.mmb_con {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.mmb_con .con_top {
+    height: 34px;
+    background-color: #f5f5f5;
+    border: 1px solid #d7d3d4;
+    border-top: 3px solid #432000;
+    padding: 0 20px;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+.con_left {
+    float: left;
+}
+.con_right {
+    float: right;
+}
+.con_left span {
+    float: left;
+}
+.con_left ul {
+    float: left;
+    padding-top: 6px;
+}
+.con_left li em.u {
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/product/x_up.png) no-repeat;
+}
+.con_left li em {
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+   
+}
+.con_left li.active {
+    background: #ff5000;
+    color: #fff;
+}
+.con_left li {
+    float: left;
+    width: 50px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+#x, #x1 {
+    text-align: left;
+    padding-left: 6px;
+    width: 44px;
+    position: relative;
+}
+.con_right p {
+    float: left;
+    margin-left: 5px;
+}
+.con_right p strong {
+    font-weight: normal;
+    color: #fc5000;
+    margin: 0 5px;
+}
+.con_right .top_right_pn {
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+.prev1{
+    left: 0;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/product/prev1.png) no-repeat center center;
+}
+.prev2{
+    right: 0;
+    background: url(http://rep.mmb.cn/wap/upload/mmbPc/product/next.png) no-repeat center center;
+}
+.con_right a {
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    position: absolute;
+    top: 6px;
+}
+.plist {
+    width: 1000px;
+    margin: 0 auto;
+}
+// --------------------------分页-------------
+.mmb-page{
+    width:1000px;
+    margin: 0 auto;
+    text-align: right;
+    font-size:12px;
+}
+.page-wrap{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+}
+.mmb-page b{
+    font-weight: 100;
+}
+.mmb-page-num{
+    float:left;
+}
+.mmb-page-prev{
+    display:inline-block;
+    width: 74px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    margin-right: -1px;
+    background: #efefef;
+}
+.mmb-page-cur{
+    display: inline-block;
+    width: 35px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+}
+.mmb-page-num a{
+    display: inline-block;
+    width: 35px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+}
+.mmb-page-next{
+    width: 74px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    color: #666;
+}
+.mmb-page .page-wrap .mmb-page-skip {
+    margin-left: 10px;
+    display: inline-block;
+    _padding-top: 6px;
+    font-size: 12px;
+}
+.mmb-page-skipTo {
+    text-align: center;
+    width: 32px;
+    margin: 0 2px;
+    border: 1px solid #e5e5e5;
+    margin-top: -3px;
+}
+.mmb-btn-s {
+    width: 46px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    background-color: #f5f5f5;
+    color: #555;
+}
+.contais{
+    position: relative;
+    width: 1040px;
+    margin: 0 auto 25px;
+    padding-bottom: 10px;
+}
+.contais ul li{
+    float:left;
+    width: 220px;
+    margin:10px 40px 10px 0;
+    box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+}
+.contais ul li .txt{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 41px;
+    width: 210px;
+    color: #666;
+    padding: 0 5px;
+    max-height: 41px;
+    height: auto;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.plist .contais p.price {
+    margin-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+.plist .contais p.price span{
+    color: #ff4f00;
+    margin-left: 5px;
+}
+.plist .contais p.price span i{
+    font-size: 18px;
+    font-style: normal;
+    color: #ff4f00;
+}

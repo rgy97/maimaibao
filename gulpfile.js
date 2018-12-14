@@ -8,7 +8,7 @@ gulp.task("html",()=>{
       // gulp.src("./src/pages/index.html").pipe(gulp.dest("./dist/"));
       // gulp.src(["./src/pages/index.html","./src/pages/list.html"]).pipe(gulp.dest("./dist/"));
       // gulp.src("./src/pages/*.html").pipe(gulp.dest("./dist/"));
-      return  gulp.src(["./src/pages/*.html","!./src/pages/mySecret.html"]).pipe(gulp.dest("./dist/pages")).pipe(connect.reload());
+      return  gulp.src(["./src/pages/*.html","!./src/pages/mySecret.html","./src/pages/*.json"]).pipe(gulp.dest("./dist/pages")).pipe(connect.reload());
 })
       gulp.task("javascript",()=>{
             return gulp.src(["./src/javascripts/*.js"])
@@ -23,6 +23,7 @@ gulp.task("html",()=>{
       gulp.task("watch",()=>{
             gulp.watch("./src/pages/*.html",["html"]);
             gulp.watch("./src/sass/*.scss",["sass"]);
+            gulp.watch("./src/javascripts/*.js",["javascript"]);
       })
       gulp.task("connect",()=>{
             connect.server()

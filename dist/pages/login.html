@@ -24,11 +24,11 @@
                         <span>|</span>
                     </li>
                     <li>
-                        <a href="#">买卖宝账号登录</a>
+                        <a href="./login.html">买卖宝账号登录</a>
                         <span>|</span>
                     </li>
                     <li>
-                        <a href="#">注册</a>
+                        <a href="./reg.html">注册</a>
                         <span>|</span>
                     </li>
                     <li>
@@ -90,7 +90,7 @@
         <div class="login_right">
                 <div class="login_qq">
                     <h2>还不是买卖宝会员？</h2>
-                    <a href="#" class="f2">3秒快速注册 ▶</a>
+                    <a href="../pages/reg.html" class="f2">3秒快速注册 ▶</a>
                     <p>使用合作网站账户登录买卖宝:</p>
                     <a href="#">
                         <img width="150px" style="margin-top:20px;" src="http://rep3.mmb.cn/wap/upload/daqphone/images/qqlogin/logo_5.png">
@@ -200,4 +200,48 @@
         </div>
     </footer>
 </body>
+<script>
+        var btn1=document.querySelector(".btn");
+        var uname = document.getElementById("username");
+        var upwd = document.getElementById("password")
+        var arr = getCookie("login_left");
+       
+     btn1.onclick= function(){
+        //  console.log(1111111);
+        for(i =0;i<arr.length;i++){
+        console.log(brr)
+       
+        if(uname.value==arr[i].name &&upwd.value==arr[i].password){
+            alert("登录成功");
+         return false;
+        }
+        else{
+            alert("登录失败");
+          
+        }
+       }     
+     }  
+    
+     function getCookie(key){
+	//如果cookie中有数据  才可以获取数据
+	if(document.cookie){		
+		var cookieInfo = document.cookie;
+		//cookie中可能会包含一些 额外的数据，这些数据特点是由   分号和空格间隔的
+		//所以 先将 分号和空格  替换掉   替换成  ;
+		var arr = cookieInfo.replace(/;\s/g,';').split(";");	
+		for(var i=0;i<arr.length;i++){
+			item = arr[i].split("=");
+			if(item[0] == key){
+				brr = item[1];
+				return JSON.parse(brr);//如果找到 我们想要的键，将值转成数组返回 
+			}
+		}
+		//如果cookie中 没有我们想获取的键值，直接返回一个空数组
+		return [];
+	}
+	//如果cookie中没有数据，直接返回一个空数组
+	return [];
+}
+     
+</script>
 </html>
